@@ -1,0 +1,53 @@
+body {
+    font-size: 15pt;
+    font-weight:700;
+}
+form{
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, .5, .5);
+  padding: 20px;
+}
+#name{
+  margin-top: 10px;
+  display:flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}#email{
+  margin-top: 10px;
+  display:flex;
+  flex-direction: column;
+  gap:15px;
+}#message{
+margin-top: 10px;
+  display:flex;
+  flex-direction: column;
+  gap:15px;
+  
+}
+#mobile{
+  margin-top: 10px;
+  display :flex;
+  flex-direction: column;
+  gap:15px;
+}
+#btn{
+  margin-top: 10px;
+  background-color:green;
+  color:white;
+  border-style: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius:10px;
+  
+  
+}
+small{
+  color:red;
+}
+form .btn{
+  text-align:center;
+}
+#form-title {
+  text-align: center;
+}

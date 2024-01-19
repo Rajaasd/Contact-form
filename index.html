@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <div id="form-title">
+      <h4>
+        Contact form
+      </h4>
+    </div>
+ 
+
+    <input type="hidden" name="access_key" value="c3f84948-1a36-4e5f-b3d8-c91b9f2364d0">
+    <div id="name">
+      <label for="name">Name
+      <small>
+        *
+      </small></label>
+       <input type="text" name="name" required>
+    </div>
+    <div id="email">
+    <label for="email">Email id
+    <small>
+    *
+    </small></label>
+    <input type="email" name="email" required>
+    </div>
+      <div id="mobile">
+       <label for="number">
+        Mobile Number 
+        <small>
+          *
+        </small>
+       </label>
+       <input type="number" name="number" required>
+         <!--Tab to edit-->
+       
+      </div>
+    <div id="message">
+    <label for="message">Meassage</label>
+    <textarea name="message" required></textarea>
+    </div>
+    <div class="btn">
+    <button type="submit" id="btn">Submit Form</button>
+    </div>
+
+</form>
+
+<script src="https://web3forms.com/client/script.js" async defer></script>
+  <script src="main.js"></script>
+</body>
+</html>
